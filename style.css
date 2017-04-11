@@ -1,7 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono|Satisfy|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono|Press+Start+2P|Ubuntu|Concert+One');
 #header {
-    background-color: cadetblue;
-    color: azure;
-    font-family: Satisfy;
-    font-size: 68px;
+    background-color: #6494e0;
+    color: #aacbff;
+    font-family: "Press Start 2P";
+    text-align: center;
+    margin: 0px;
+    font-size: 28px;
+    padding: 0px;
+    height: 60px
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    position: inherit
+}
+
+body {
+    background-color:#aacbff;
+    color: cadetblue;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#main {
+    font-family: Ubuntu;
+    margin: 5%
+}
+
+section {
+    background-color: azure;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h2 {
+    margin: 5px
+}
+
+.title {
+    #background-color:cornflowerblue;
+    color: #6494e0;
+    margin: 0px;
+    #border: 3px solid blue;
+    font-family: "Concert One"
+}
+
+.content {
+    padding: 1%;
+    #border-left: 1px solid cadetblue;
+    #border-right: 1px solid cadetblue;
+    #border-bottom: 1px solid cadetblue;
+    color: #6494e0
+}
+
+.code {
+    font-family: "Overpass mono";
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid #6494e0;
+    padding: 1%;
+    font-size: 12px;
+}
+code {
+    font-family: "Overpass mono";
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid #6494e0;
+    padding: 0.25%;
+    font-size: 12px;
 }
